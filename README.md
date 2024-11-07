@@ -15,5 +15,4 @@ DELETE	/students/{id}	Delete a student by ID
 GET	/students/{id}/summary	Get AI-based summary of a student
 
 **IMPORTANT**
-I have made this public on "https://muftiusmanapiforfealtyx.serveo.net/" using Serveo. Serveo allows to create a secure tunnel, forwarding traffic from a public URL to my local server. It provides temporary hosting 
-via SSH tunneling, therefore it requires the SSH session TO REMAIN OPEN. The API server relies on my local resources, so it will stop if I close the terminal or shut down your machine or unknowingly terminate.
+I have made this public on "https://muftiusmanapiforfealtyx.serveo.net/" using Serveo. Serveo allows me to create a secure tunnel, forwarding traffic from a public URL to my local server. It provides temporary hosting via SSH tunneling, therefore it requires the SSH session TO REMAIN OPEN. The API server relies on my local resources, so it will stop if I close the terminal or shut down my machine, or unknowingly terminate.
